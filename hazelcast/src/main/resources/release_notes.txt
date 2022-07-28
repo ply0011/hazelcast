@@ -3,6 +3,6 @@ This document lists the new features, enhancements, fixed issues and, removed or
 ## Fixes 
 
 * Fixed the cluster failure occurred after requesting healthcheck of a member using REST API while the `hazelcast.socket.buffer.direct` property is enabled. [#21702]
-* Fixed a security vulnerability which is to be published as CVE-2022-36437 on https://cve.mitre.org/. [#21643]
+* Improved connection handling. [#21643]
 * Fixed an issue where a cluster could not be formed when security is enabled, various client permissions are set,
 and multiple members are started simultaneously. [#21508]
